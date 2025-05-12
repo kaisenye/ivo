@@ -1,0 +1,296 @@
+[
+  {
+    "title": "Test Cases",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Edge Cases Test Document"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This document contains various edge cases to test the renderer."
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Empty Clause",
+        "children": []
+      },
+      {
+        "type": "clause",
+        "title": "Clause with Text Only",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This is a simple paragraph inside a clause with no styling."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Clause With Mixed Styling",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This has "
+              },
+              {
+                "bold": true,
+                "text": "bold"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "italic": true,
+                "text": "italic"
+              },
+              {
+                "text": ", and "
+              },
+              {
+                "underline": true,
+                "text": "underlined"
+              },
+              {
+                "text": " text in a single paragraph."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Clause with H4",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Heading with styling"
+              },
+              {
+                "text": " and normal text"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Paragraph after heading."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Nested Clauses",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "text": "Parent Clause"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Parent clause content."
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Child Clause 1",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": "First child clause with paragraph."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Child Clause 2",
+            "children": [
+              {
+                "type": "h4",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Second Child"
+                  }
+                ]
+              },
+              {
+                "type": "clause",
+                "title": "Grandchild Clause",
+                "children": [
+                  {
+                    "type": "p",
+                    "children": [
+                      {
+                        "text": "This is a deeply nested clause paragraph."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "clause",
+            "title": "Clause Inside Paragraph",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": "This clause is inside a paragraph element."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Clause with Mentions",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This includes a mention: "
+              },
+              {
+                "color": "rgb(20, 170, 245)",
+                "type": "mention",
+                "title": "Test Variable",
+                "children": [
+                  {
+                    "text": "Variable Value"
+                  }
+                ],
+                "id": "test-var",
+                "value": "Variable Value"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Clause with Lists",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "text": "Lists"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Item 1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Item 2 with "
+                      },
+                      {
+                        "bold": true,
+                        "text": "formatting"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Clause with Multi-line Text",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Line 1\nLine 2\nLine 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Clause with No Children Type",
+        "children": [
+          {
+            "children": [
+              {
+                "text": "This element has no type specified."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+] 
