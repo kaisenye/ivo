@@ -1,0 +1,17 @@
+Pool 1, "Wrapped Bitcoin and Circle USD" contains 175 WBTC and 15870000 USDC
+Pool 2, "Wrapped Bitcoin and Ethereum" contains 1340 WBTC and 70730 ETH
+Pool 3, "Circle USD and Ethereum" contains 42330000 USDC and 14550 ETH
+Pool 4, "Frax Finance and Circle USD" contains 47240000 FRAX and 42090000 USDC
+Pool 5, "DAI and Circle USD" contains 28560000 DAI and 30300000 USDC
+Pool 6, "Ethereum and Tether" contains 10890 ETH and 28390000 USDT
+Pool 7, "Circle USD and Tether" contains 21740000 USDC and 24350000 USDT
+Pool 8, "Chainlink and Ethereum" contains 810000 LINK and 6870 ETH
+Pool 9, "CryptoGPT and Circle USD" contains 317090 GPT and 437240 USDC
+Pool 10, "MakerDAO and Ethereum" contains 14090 MKR and 1260 ETH
+Pool 11, "Ethereum and Ethereum Meta" contains 5000 ETH and 5000 ETHM
+Pool 12, "Uniswap and Ethereum" contains 3500000 UNI and 870 ETH
+Pool 13, "DAI and Frax Finance" contains 8390000 DAI and 9870000 FRAX
+Pool 14, "Mantle and Ethereum" contains 16170000 MNT and 3720 ETH
+Pool 15, "Mantle and HeckaSwap" contains 10000 MNT and 10000 HKS
+Pool 16, "HeckaSwap and Frax Finance" contains 10000 HKS and 10000 FRAX
+
